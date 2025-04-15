@@ -9,5 +9,7 @@ router.get('/', SelecaoController.index)
 router.get('/:id', SelecaoController.show)
 router.put('/:id', SelecaoController.update)
 router.delete('/:id', SelecaoController.delete)
+router.get('/grupo/:grupo', SelecaoController.showGrupo)
+
 
 export default router;
