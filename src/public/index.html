@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Api-rest</title>
+</head>
+<body>
+
+    <main>
+        <h1>Testar API com Fetch</h1>
+
+        <div class="crud">
+            <div class="creat">
+                <h2>POST (Criar)</h2>
+                <input type="text" id="selecao" placeholder="Seleção">
+                <input type="text" id="grupo" placeholder="Grupo">
+                <button id="btn_criar">Criar Seleção</button>
+            </div>
+
+            <div class="read">
+                <h2>GET (Ler)</h2>
+                <input type="text" id="idLer" placeholder="ID da seleção ou grupo">
+                <button id="btn_ler">Ler Seleções</button>
+            </div>
+
+            <div class="update">
+                <h2>PUT (Atualizar)</h2>
+                <input type="number" id="idAtualiza" placeholder="ID da seleção">
+                <input type="text" id="novaSelecao" placeholder="Nova Seleção">
+                <input type="text" id="novoGrupo" placeholder="Novo Grupo">
+                <button id="btn_atualiza"">Atualizar Seleção</button>
+            </div>
+
+            <div class="delete">
+                <h2>DELETE (Deletar)</h2>
+                    <input type="number" id="idDeleta" placeholder="ID da seleção">
+                    <button id="btn_deletar">Deletar Seleção</button>
+            </div>
+        </div>
+
+        <table >
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Seleção</th>
+                    <th>Grupo</th>
+                </tr>
+            </thead>
+
+            <tbody id="tabela-selecoes">
+            
+            </tbody>
+        </table>
+
+    </main>
+
+
+    <script type="module" src="./Javascript/script.js"></script>
+    <script type="module" src="./Javascript/SelecaoService.js"></script>
+
+</body>
+</html>
