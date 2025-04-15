@@ -1,1 +1,23 @@
-node_modules
+# Node modules
+node_modules/
+
+# Logs
+*.log
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Arquivos de configuração do editor
+.vscode/
+.idea/
+
+# Dependências de build
+/dist/
+/build/
+
+# Arquivos de configuração privados
+.env
+
+# Arquivos de backup
+*~
