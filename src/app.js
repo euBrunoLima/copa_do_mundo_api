@@ -1,12 +1,14 @@
 import express from 'express';
-import selecaoRoutes from './app/routes/selecaoRoutes.js'
+import selecaoRoutes from './app/routes/selecaoRoutes.js';
+import swaggerMiddleware from './app/doc/swaggerConfig.js';
+
 
 const app = express();
 
-//Indica que o express deve interpretar o body da requisição como JSON
-app.use(express.json())
-app.use(express.static('src/public'))
+app.use(express.json());
+app.use(express.static('src/public'));
 
-app.use("/selecoes", selecaoRoutes)
+app.use('/selecoes', selecaoRoutes);
+app.use('/api-docs', swaggerMiddleware);
 
 export default app;
