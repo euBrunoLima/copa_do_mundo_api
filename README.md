@@ -76,30 +76,33 @@ A estrutura de diretórios do projeto é apresentada abaixo:
 
     ```bash
     
-    📁 API-REST
-    ├── 📁 node_modules
-    ├── 📁 src
-    │   └── 📁 app
-    │       ├── 📁 controllers
-    │       │   └── 📄 SelecaoController.js
-    │       ├── 📁 database
-    │       │   └── 📄 conexao.js
-    │       ├── 📁 repositories
-    │       │   └── 📄 SelecaoRepository.js
-    │       ├── 📁 routes
-    │       │   └── 📄 selecaoRoutes.js
-    ├── 📁 public
-    │   ├── 📁 Javascript
-    │   │   ├── 📄 script.js
-    │   │   └── 📄 SelecaoService.js
-    │   ├── 📄 index.html
-    │   └── 📄 style.css
-    ├── 📄 app.js
-    ├── 📄 server.js
-    ├── 📄 .gitignore
-    ├── 📄 LICENSE
-    ├── 📄 package-lock.json
-    └── 📄 package.json
+        📁 API-REST
+          ├── 📁 node_modules
+          ├── 📁 src
+          │   └── 📁 app
+          │       ├── 📁 controllers
+          │       │   └── 📄 SelecaoController.js
+          │       ├── 📁 database
+          │       │   └── 📄 conexao.js
+          │       ├── 📁 repositories
+          │       │   └── 📄 SelecaoRepository.js
+          │       ├── 📁 routes
+          │       │   └── 📄 selecaoRoutes.js
+          ├── 📁 public
+          │   ├── 📁 Javascript
+          │   │   ├── 📄 script.js
+          │   │   └── 📄 SelecaoService.js
+          │   ├── 📄 index.html
+          │   └── 📄 style.css
+          ├── 📁 database
+          │   └── 📄 bdcopa.sql 
+          ├── 📄 app.js
+          ├── 📄 server.js
+          ├── 📄 .gitignore
+          ├── 📄 LICENSE
+          ├── 📄 package-lock.json
+          └── 📄 package.json
+
 
 
 
