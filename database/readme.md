@@ -1,0 +1,1 @@
+Esta pasta contém o arquivo SQL do banco de dados utilizado neste projeto. Use-o para criar e inicializar o banco conforme as necessidades da aplicação.
